@@ -28,7 +28,6 @@ export default {
     axios.get('https://jsonplaceholder.typicode.com/posts')
       .then(response =>{
         this.data = response.data;
-        console.log(this.data)
       })
   }
 }
